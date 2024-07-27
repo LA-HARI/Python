@@ -1,0 +1,2 @@
+cars=["a", "b", "c"]
+print(cars[0])

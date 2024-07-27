@@ -1,0 +1,23 @@
+cars=["a", "b", "c"]
+buses=["A","B","C"]
+x= cars.insert(2,"u")
+y= buses.insert(3,"v")
+print(cars)
+print(buses)
+cars.extend(buses)
+print(cars)
+cars.remove("v")
+print(cars)
+buses.reverse()
+print(buses)
+reversed(buses)
+print(buses)
+cars.pop(0)
+print(cars)
+buses.remove("B")
+print(buses)
+cars.sort(reverse=False)
+print(cars)
+
+
+
